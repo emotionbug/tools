@@ -1,0 +1,5 @@
+export LLVM_CONFIG=llvm-config
+export CLANG=clang
+export CXX=clang++
+export CC=clang
+
