@@ -1,0 +1,1 @@
+./configure --prefix=$HOME/work/pgsql --enable-cassert --enable-debug CFLAGS="-glldb -O0 -g3 -fno-omit-frame-pointer"
