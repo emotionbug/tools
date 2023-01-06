@@ -1,0 +1,5 @@
+unset LLVM_CONFIG
+unset CLANG
+export CXX=g++
+export CC=gcc
+./configure --prefix=$HOME/work/pgsql --enable-cassert --enable-debug CFLAGS="-ggdb -O0 -g3 -fno-omit-frame-pointer"
