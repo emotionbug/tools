@@ -1,6 +1,7 @@
 #!/bin/sh
 
-mkdir tmpbackup
+rm -rf tmpbackup 
+mkdir -p tmpbackup
 # GPG Private key
 gpg --export-options backup -o tmpbackup/secret.gpg --export-secret-keys
 # SSH_Key
